@@ -1,16 +1,10 @@
-In the beginning we load the files "activity_labels.txt", "features.txt" into the corresponding variables.
-Then we goes to data from the "test" folder.
-We define a vector of values the containing index of the elements containing in the name of  "mean" and "std" value, 
-for this purpose we use the grep function.
-On the basis of this information we form the data feature.
-After we read the "subject_test.txt" and "X_test.txt" files,
-for the last file used a vector of indexes we select necessary columns, apply appropriate names.
-
-We bind (by columns) three tables (subject, activity, X).
-
-We carry out similar actions and for train of data.
-
-We bind (by rows) the test and train data, later we exclude not informative column.
-
-By the ddply function it is determined mean for all subject and activity.
-Output the table in the txt file.
+{
+"type":"Polygon",
+"coordinates":[
+[
+[
+40.886362633498784,50.477528832280015],
+[40.88640267643199,50.47741816342946],[40.89933861892451,50.47526717820169],[40.8999495492254,50.47749477266484],[40.90071206935136,50.479710971357534],[40.90147447704424,50.48195257545996],[40.90085467291764,50.482205122754976],[40.89696642403038,50.48280379733834],[40.89128542708553,50.483836560260826],[40.88710278344009,50.484494849067076],[40.88644737001308,50.48346774997564],[40.886612326573804,50.483254923765834],[40.88736150055532,50.48315847340547],[40.88869923509374,50.482922980468295],[40.888494145488,50.48201784724044],[40.888275517835346,50.481606418183205],[40.88789653770099,50.480945263741106],[40.88735255178966,50.48065581008361],[407.88650533564273,50.480048596207396],[40.88650529560201,50.478947641191866],[40.886362633498784,50.477528832280015]
+]
+]
+}
